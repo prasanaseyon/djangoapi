@@ -6,4 +6,4 @@ class CourseSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model=Course
         fields=('id','url',
-                'name','language','price')
+                'name','language','price','image_url')
